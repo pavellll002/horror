@@ -1,0 +1,10 @@
+.preview {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 2em;
+	background: linear-gradient(0deg, rgba(255,255,255,.9), transparent 13%);
+}
+p {
+	background-color:rgba(255,255,255,.9);
+	padding: 2em 0;
+}

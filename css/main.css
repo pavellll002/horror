@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+* {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+#wrapper {
+	display: grid;
+	grid-template-rows: 9% 1fr;
+	height: 100vh;
+}
+a {
+	text-decoration: none;
+}
+main {
+	background-image: url(https://kartinkinaden.ru/uploads/posts/2020-09/thumbs/1600216483_36-p-fon-uzhasi-55.jpg);
+	overflow: auto;
+}
+header {
+	background-color: #E7003E;
+	display: flex;
+	align-items: center;
+}
+header h1 a{
+	color: white;
+	margin-left: 15px; 
+}
+h2 {
+	color: white;
+	text-align: center;
+	padding: 2em;
+	background: linear-gradient(0deg, transparent 13%, #E7003E);
+}
+.column {
+	display: flex;
+	flex-direction: column;
+}
+.row {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 2em;
+}
+.item {
+	width: 25%;
+	height: 300px;
+	background-size: cover;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.inner-item {
+	display: flex;
+    height: 100%;
+    align-items: flex-end;
+    background: linear-gradient(0deg, #960028, transparent 25%);
+    border-radius: 5px;
+    color: white;
+    justify-content: center;
+}
+.inner-item:hover {
+    background: linear-gradient(0deg, #960028, transparent 35%);
+}
+.inner-item h3{
+	padding: 1em;
+}
