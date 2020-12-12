@@ -14,6 +14,7 @@ a {
 main {
 	background-image: url(https://kartinkinaden.ru/uploads/posts/2020-09/thumbs/1600216483_36-p-fon-uzhasi-55.jpg);
 	overflow: auto;
+	background-size: cover;
 }
 header {
 	background-color: #E7003E;
