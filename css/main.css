@@ -12,7 +12,7 @@ a {
 	text-decoration: none;
 }
 main {
-	background-image: url(https://kartinkinaden.ru/uploads/posts/2020-09/thumbs/1600216483_36-p-fon-uzhasi-55.jpg);
+	background-image: url(https://im0-tub-ru.yandex.net/i?id=0a44266e5c582cfbaf3a96cce763b407&n=13);
 	overflow: auto;
 	background-size: cover;
 }
@@ -20,10 +20,13 @@ header {
 	background-color: #E7003E;
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 }
-header h1 a{
+header a,#time{
 	color: white;
-	margin-left: 15px; 
+	margin-left: 15px;
+	font-size: 1.1em;
+	margin: 15px;
 }
 h2 {
 	color: white;
@@ -61,4 +64,11 @@ h2 {
 }
 .inner-item h3{
 	padding: 1em;
+}
+#the-main-day {
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-top: 2em;
 }
